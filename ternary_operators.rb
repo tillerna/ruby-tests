@@ -4,6 +4,6 @@ def isogram?(string)
   
   puts "Enter a word to check"
   input = gets.chomp
-  puts "Is #{input} an isogram?"
+  puts "Is #{input} an isogram??"
   response = isogram?(input) == true ? "Yes" : "Nope, try again!"
   puts response  
